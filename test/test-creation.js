@@ -57,7 +57,8 @@ describe('sandkasten generator', function () {
     var expectedContent = [
       ['index.html', /<title>myapp<\/title>/],
       ['bower.json', /"name": "myapp"/],
-      ['bower.json', /"angular": "*"/]
+      ['bower.json', /"angular": "*"/],
+      ['.jshintrc', /"angular": true/]
     ];
 
     helpers.mockPrompt(this.app, {
