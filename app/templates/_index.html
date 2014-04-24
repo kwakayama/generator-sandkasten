@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= appName %></title>
+</head>
+<body<% if (angularModule) { %> ng-app="<%= appName %>"<% } %>><% if (angularModule) { %>
+<script src="bower_components/angular/angular.js"></script><% } %>
+<script src="main.js"></script>
+</body>
+</html>
