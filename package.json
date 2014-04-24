@@ -1,6 +1,6 @@
 {
   "name": "generator-sandkasten",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "generator for sandbox app",
   "license": "MIT",
   "main": "app/index.js",
